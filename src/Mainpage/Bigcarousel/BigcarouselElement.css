@@ -1,0 +1,67 @@
+.bigcarouselelement--container{
+    display:flex;
+    flex-direction: row;
+    border-radius: 0.5vw;
+    background-color: #030B17;
+    box-shadow: 5px 5px 5px 0px #06101f8a;
+    min-width:88vw;
+    height:clamp(200px,45vh,400px);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bigcarouselelement--details{
+    width:50%;
+    height:100%;
+    
+    
+}
+.bigcarouselelement--blur{
+    position:absolute;
+    top:0;
+    left:50%;
+    background: linear-gradient(to right, #030b17, rgba(0,0,0,0));
+    width:15%;
+    height:100%;
+}
+
+
+.title{
+    margin-left:10%;
+    margin-top:8%;
+    word-wrap: break-word;
+    width:60%;
+    overflow: hidden;
+    max-height: 2em;
+    line-height: 1em;
+}
+.metadata{
+    margin-left:10%;
+    display:none;
+}
+.description{
+    margin-left:10%;
+    word-wrap: break-word;
+    width:60%;
+    overflow: hidden;
+    max-height: 5.4em;
+    line-height: 1.8em;
+    color: #B2B5B9;
+}
+
+
+
+.bigcarouselelement--image{
+    height:100%;
+    width:50%;
+    
+   
+}
+
+.bigcarouselelement--image >img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}

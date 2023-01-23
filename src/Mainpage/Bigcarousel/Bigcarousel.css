@@ -1,0 +1,51 @@
+.bigcarousel--maincontainer {
+    position: relative;
+    margin-top: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.bigcarousel--container{
+    display:flex;
+    flex-direction: row; 
+    gap:3%;
+    z-index: -1;
+
+}
+
+.bigcarousel--container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.bigcarousel--maincontainer--prevbut{
+    all :unset;
+    position:absolute;
+    top:40%;
+    left:2vw;
+    opacity: 0;
+
+   
+}
+
+.bigcarousel--maincontainer--prevbut >img{
+    height:40px;
+    width :40px;
+   
+}
+
+
+.bigcarousel--maincontainer--nextbut{
+    all :unset;
+    position:absolute;
+    top:40%;
+    right:2vw;
+   opacity: 0;
+}
+
+.bigcarousel--maincontainer--nextbut >img{
+    height:40px;
+    width :40px;
+   
+}

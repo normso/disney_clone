@@ -1,0 +1,46 @@
+
+
+.slider--maincontainer {
+    position: relative;
+}
+
+.slider--container{
+    display:flex;
+    flex-direction: row;
+    gap:2vw;
+    overflow-x: auto;
+    overflow-y:hidden;
+    scrollbar-width:none !important;
+    scroll-behavior: smooth;
+    height:38vh;
+}
+
+.slider--container::-webkit-scrollbar {
+    display: none;              
+  }
+
+
+.slider--maincontainer--prevbutcontainer--prevbut,.slider--maincontainer--nextbutcontainer--nextbut{
+    border: 0;
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    background-color: transparent;
+    opacity: 0;
+}
+
+.slider--maincontainer--prevbutcontainer--prevbut >img,.slider--maincontainer--nextbutcontainer--nextbut >img{
+    height:35px;
+    width :35px;
+    cursor: pointer;
+}
+
+
+
+.slider--maincontainer--nextbutcontainer--nextbut{
+    right:2%;
+}
+
+.slider--maincontainer--prevbutcontainer--prevbut{
+    left:2%;
+}

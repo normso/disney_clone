@@ -1,0 +1,47 @@
+.big-carousel-skeleton{
+    width:88vw;
+    height:40vh;
+    margin: 50px auto;
+    animation: skeleton-loading 1s linear infinite alternate;
+    border-radius: 0.5vw;
+    background-color: hsl(216, 77%, 5%);
+    box-shadow: 5px 5px 5px 0px #06101f8a;
+}
+
+.slider-skeleton{
+    margin-left: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 50px;;
+}
+
+
+.slider-skeleton-heading{
+    width:300px;
+    height:50px;
+    border-radius: 10px;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.slider-skeleton-element{
+    width:clamp(150px,10vw,400px);
+    height:clamp(250px,30vh,500px);
+    border-radius:0.5vw;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-element-container{
+    margin-top:30px;
+    display: flex;
+    gap:20px;
+    overflow: hidden;
+}
+
+
+@keyframes skeleton-loading {
+    0% {
+      background-color: hsl(216, 77%, 5%);
+    }
+    100% {
+      background-color: hsl(216, 77%, 20%);
+    }
+  }

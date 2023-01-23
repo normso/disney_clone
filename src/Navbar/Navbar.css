@@ -1,0 +1,45 @@
+.nav--container{
+    display:flex;
+    flex-direction: row;
+    margin:2vh 5vw 0;
+    justify-content: space-between;
+}
+
+.nav--container1{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+
+.nav-container2{
+    display:flex;
+    flex-direction:row;
+    gap : 10px;
+    align-items: center;
+    margin-right:1vw;
+}
+
+.nav-menus > a {
+    margin: 5px;
+    font-weight: 800;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #B2B5B9;
+    
+}
+
+.nav--login > a{
+    font-weight: 800;
+    font-size: 1.3em;
+
+    text-decoration: none;
+    color:#B2B5B9;
+}
+
+
+@media (max-width:600px){
+    .nav-menus,.nav--login{
+        display: none;
+    }
+}
