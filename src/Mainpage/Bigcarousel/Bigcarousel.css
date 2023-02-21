@@ -1,6 +1,6 @@
 .bigcarousel--maincontainer {
     position: relative;
-    margin-top: 50px;
+    margin-top: 20px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -9,8 +9,9 @@
 .bigcarousel--container{
     display:flex;
     flex-direction: row; 
-    gap:3%;
+    gap:1vw;
     z-index: -1;
+    /* transform: translateX(-97vw); */
 
 }
 

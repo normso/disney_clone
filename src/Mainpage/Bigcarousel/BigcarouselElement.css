@@ -4,8 +4,8 @@
     border-radius: 0.5vw;
     background-color: #030B17;
     box-shadow: 5px 5px 5px 0px #06101f8a;
-    min-width:88vw;
-    height:clamp(200px,45vh,400px);
+    min-width:92vw;
+    height:clamp(300px,48vh,500px);
     flex-wrap: nowrap;
     overflow: hidden;
     position: relative;
